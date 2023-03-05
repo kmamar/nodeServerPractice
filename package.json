@@ -4,7 +4,8 @@
   "description": "my first node server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon index.js"
   },
   "keywords": [
     "node",
@@ -12,6 +13,16 @@
     "server",
     "practice"
   ],
+  "type": "module",
   "author": "kmamar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.0",
+    "nodemon": "^2.0.20"
+  }
+  
+       
+   
+   
+
 }
